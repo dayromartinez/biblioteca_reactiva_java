@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -11,6 +12,7 @@
             <option value="$PROJECT_DIR$/biblioteca_paramera/applications/app-service" />
             <option value="$PROJECT_DIR$/biblioteca_paramera/domain/model" />
             <option value="$PROJECT_DIR$/biblioteca_paramera/domain/usecase" />
+            <option value="$PROJECT_DIR$/biblioteca_paramera/infrastructure/driven-adapters/r2dbc-postgresql" />
           </set>
         </option>
       </GradleProjectSettings>
