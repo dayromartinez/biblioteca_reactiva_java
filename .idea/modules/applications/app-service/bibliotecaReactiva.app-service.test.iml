@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/../../../../biblioteca_paramera/applications/app-service/build/generated/sources/annotationProcessor/java/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../biblioteca_paramera/applications/app-service/build/generated/sources/annotationProcessor/java/test" isTestSource="true" generated="true" />
+    </content>
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="a71b1fff-f0a9-42c0-802e-6836925826b9" />
+  </component>
+</module>
