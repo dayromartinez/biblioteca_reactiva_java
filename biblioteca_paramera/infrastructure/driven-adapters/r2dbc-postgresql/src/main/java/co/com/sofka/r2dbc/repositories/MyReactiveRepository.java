@@ -1,4 +1,4 @@
-package co.com.sofka.r2dbc;
+package co.com.sofka.r2dbc.repositories;
 
 import org.springframework.data.repository.query.ReactiveQueryByExampleExecutor;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;

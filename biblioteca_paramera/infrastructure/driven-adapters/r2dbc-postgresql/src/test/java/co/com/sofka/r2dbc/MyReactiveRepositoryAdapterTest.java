@@ -1,5 +1,7 @@
 package co.com.sofka.r2dbc;
 
+import co.com.sofka.r2dbc.adapters.MyReactiveRepositoryAdapter;
+import co.com.sofka.r2dbc.repositories.MyReactiveRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

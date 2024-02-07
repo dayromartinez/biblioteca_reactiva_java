@@ -1,6 +1,7 @@
-package co.com.sofka.r2dbc;
+package co.com.sofka.r2dbc.adapters;
 
 import co.com.sofka.r2dbc.helper.ReactiveAdapterOperations;
+import co.com.sofka.r2dbc.repositories.MyReactiveRepository;
 import org.reactivecommons.utils.ObjectMapper;
 import org.springframework.stereotype.Repository;
 
