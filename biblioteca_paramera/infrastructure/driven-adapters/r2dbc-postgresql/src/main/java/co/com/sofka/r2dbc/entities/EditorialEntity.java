@@ -1,6 +1,5 @@
 package co.com.sofka.r2dbc.entities;
 
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -13,14 +12,13 @@ import lombok.*;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "AUTHOR", schema = "SOFKA")
-public class Author {
+@Table(name = "Editorial", schema = "SOFKA")
+public class EditorialEntity {
 
     @Id
     @Column(name = "ID", nullable = false)
     private Long id;
 
     @Column(name = "NAME", nullable = false)
-    private String NAME;
-
+    private String name;
 }

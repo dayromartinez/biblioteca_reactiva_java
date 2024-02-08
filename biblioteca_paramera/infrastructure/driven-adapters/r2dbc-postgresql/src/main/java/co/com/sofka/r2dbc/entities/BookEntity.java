@@ -1,6 +1,5 @@
 package co.com.sofka.r2dbc.entities;
 
-import co.com.sofka.model.commons.enumerables.Status;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -16,7 +15,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "BOOK", schema = "SOFKA")
-public class Book {
+public class BookEntity {
 
     @Id
     @Column(name = "ID", nullable = false)

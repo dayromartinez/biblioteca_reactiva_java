@@ -12,8 +12,8 @@ import lombok.*;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "Editorial", schema = "SOFKA")
-public class Editorial {
+@Table(name = "GENDER", schema = "SOFKA")
+public class GenderEntity {
 
     @Id
     @Column(name = "ID", nullable = false)

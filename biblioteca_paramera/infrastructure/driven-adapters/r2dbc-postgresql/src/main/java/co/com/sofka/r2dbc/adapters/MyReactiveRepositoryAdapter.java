@@ -1,15 +1,15 @@
 package co.com.sofka.r2dbc.adapters;
 
 import co.com.sofka.r2dbc.helper.ReactiveAdapterOperations;
-import co.com.sofka.r2dbc.repositories.MyReactiveRepository;
+import co.com.sofka.r2dbc.repositories.BookEntityRepository;
 import org.reactivecommons.utils.ObjectMapper;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class MyReactiveRepositoryAdapter extends ReactiveAdapterOperations<Object/* change for domain model */, Object/* change for adapter model */, String, MyReactiveRepository>
+public class MyReactiveRepositoryAdapter extends ReactiveAdapterOperations<Object/* change for domain model */, Object/* change for adapter model */, String, BookEntityRepository>
 // implements ModelRepository from domain
 {
-    public MyReactiveRepositoryAdapter(MyReactiveRepository repository, ObjectMapper mapper) {
+    public MyReactiveRepositoryAdapter(BookEntityRepository repository, ObjectMapper mapper) {
         /**
          *  Could be use mapper.mapBuilder if your domain model implement builder pattern
          *  super(repository, mapper, d -> mapper.mapBuilder(d,ObjectModel.ObjectModelBuilder.class).build());

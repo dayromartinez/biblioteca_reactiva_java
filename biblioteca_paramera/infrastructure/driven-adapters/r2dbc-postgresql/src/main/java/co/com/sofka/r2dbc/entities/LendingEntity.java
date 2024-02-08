@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "LENDING", schema = "SOFKA")
-public class Lending {
+public class LendingEntity {
 
     @Id
     @Column(name = "ID", nullable = false)

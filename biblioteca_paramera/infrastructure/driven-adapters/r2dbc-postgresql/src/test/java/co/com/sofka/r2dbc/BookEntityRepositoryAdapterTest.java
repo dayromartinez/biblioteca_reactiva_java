@@ -1,7 +1,7 @@
 package co.com.sofka.r2dbc;
 
 import co.com.sofka.r2dbc.adapters.MyReactiveRepositoryAdapter;
-import co.com.sofka.r2dbc.repositories.MyReactiveRepository;
+import co.com.sofka.r2dbc.repositories.BookEntityRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -17,14 +17,14 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-class MyReactiveRepositoryAdapterTest {
+class BookEntityRepositoryAdapterTest {
     // TODO: change four you own tests
 
     @InjectMocks
     MyReactiveRepositoryAdapter repositoryAdapter;
 
     @Mock
-    MyReactiveRepository repository;
+    BookEntityRepository repository;
 
     @Mock
     ObjectMapper mapper;

@@ -13,7 +13,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "USER", schema = "SOFKA")
-public class User {
+public class UserEntity {
 
     @Id
     @Column(name = "ID", nullable = false)
