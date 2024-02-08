@@ -9,6 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/biblioteca_paramera" />
+            <option value="$PROJECT_DIR$/biblioteca_paramera/application" />
             <option value="$PROJECT_DIR$/biblioteca_paramera/applications/app-service" />
             <option value="$PROJECT_DIR$/biblioteca_paramera/domain/model" />
             <option value="$PROJECT_DIR$/biblioteca_paramera/domain/usecase" />
